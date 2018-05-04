@@ -39,4 +39,4 @@ Pre-Trained models :
 	Vocabulary 		- https://www.dropbox.com/s/26adb7y9m98uisa/vocap.zip?dl=0  
 	P-net models 	- https://www.dropbox.com/s/ne0ixz5d58ccbbz/pretrained_model.zip?dl=0  
 	E-net models 	- https://drive.google.com/open?id=1fshQm4uMm19J_jUMXmZE3wgMK7wCN0Ab  
-	V-net models 	- Still under training. Come back later! :D  
+	V-net models 	- https://drive.google.com/open?id=1aoVq0nnaOcL5u_3vUixZdz7Y5KEcfN9a
