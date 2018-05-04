@@ -1,3 +1,4 @@
+import os
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -5,7 +6,7 @@ import torchvision.models as models
 from torch.nn.utils.rnn import pack_padded_sequence
 from torch.autograd import Variable
 
-path_to_data = '/home/hp/pytorch-tutorial/tutorials/03-advanced/image_captioning/data/'
+path_to_data = os.path.dirname(os.path.realpath(__file__))+'/'
 
 class EncoderCNN(nn.Module):
     """ Pre-trained CNN(Resnet-152) which is used CNN_p, CNN_e and CNN_v"""
@@ -177,4 +178,3 @@ class PairwiseRankingLoss(torch.nn.Module):
             cost_im[i, i] = 0
 
         return cost_s.sum() + cost_im.sum()
-
